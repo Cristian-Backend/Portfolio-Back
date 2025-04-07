@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Desarrollador Backend</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Cristian Micchele</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#certificates">Certificados</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Desarrollador Backend</h1>
+            <p>Construyendo aplicaciones robustas y escalables del lado del servidor</p>
+            <a href="#contact" class="btn">Contáctame</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="./Images//FotoPerfil.png" alt="Foto de Perfil">
+            </div>
+            <div class="about-text">
+                <p>¡Hola! Soy un desarrollador backend apasionado por crear soluciones del lado del servidor que sean escalables y eficientes. Trabajo principalmente con JavaScript, Node.js, Express, NestJS, TypeORM, MongoDB y MySQL. Tengo experiencia en el diseño de bases de datos, desarrollo de APIs y arquitectura de sistemas.</p>
+                <p>Con 1 año de experiencia dedicándome a proyectos personales, he desarrollado desde APIs RESTful hasta sistemas de gestión de datos. Me encanta escribir código limpio, mantenible y siempre busco seguir las mejores prácticas.</p>
+                <a href="https://90579bcfd0.cbaul-cdnwnd.com/3fd65711e08fd96797cb63b5d83358cb/200000141-8ed608ed62/CV%20Cristian%20Micchele%20ultimo.pdf?ph=90579bcfd0" class="btn" download>Descargar CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Lenguajes de Programación</h3>
+                <ul>
+                    <li>JavaScript/Node</li>
+                    <li>TypeScript</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Frameworks y Librerías</h3>
+                <ul>
+                    <li>Express.js</li>
+                    <li>NestJS</li>
+                    <li>Socket.io</li>
+                    <li>TypeORM</li>
+                    <li>Handlebars</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Bases de Datos</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>DevOps y Herramientas</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Postman</li>
+                    <li>Swagger</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./Images/artesMarciales.png" alt="Api Artes marciales">
+                </div>
+                <div class="project-info">
+                    <h3>Api de Artes Marciales</h3>
+                    <p>Este proyecto utiliza fetch para consumir y mostrar datos desde mi propia API de artes marciales, incluyendo detalles como nombre, origen y filosofía de cada arte.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Cristian-Backend/martialArts-Api-mongo" target="_blank"><i class="fab fa-github"></i> Código</a>
+                        <a href="https://artesmarcialesf.netlify.app/home" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./Images/dRAGONBALLZ.png" alt="Api DBZ">
+                </div>
+                <div class="project-info">
+                    <h3>Api Dragon ball Z con Nest</h3>
+                    <p>Api de dragon ball z con NestJs utilizando MONGODB y fronted básico para consumirlo.</p>
+                    <div class="project-tech">
+                        <span>Nest</span>
+                        <span>MongoDB</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Cristian-Backend/nest-api-dragonballz" target="_blank"><i class="fab fa-github"></i> Código</a>
+                        <a href="https://tubular-eclair-4fae91.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Nuevos proyectos añadidos -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./Images/Agenciadeviajes.png" alt="Proyecto 3">
+                </div>
+                <div class="project-info">
+                    <h3>Agencia de viajes</h3>
+                    <p>Este proyecto es una aplicación web para una agencia de viajes que permite a los usuarios explorar destinos turísticos, leer testimonios de clientes y obtener detalles sobre diferentes viajes. La aplicación está construida con Node.js y Express, y utiliza Pug como motor de plantillas para renderizar las vistas.</p>
+                    <div class="project-tech">
+                        <span>Express</span>
+                        <span>MySQL</span>
+                        <span>Pug</span>
+                        <span>Boostrap</span>
+
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Cristian-Backend/agenciadeviaje_nodejs" target="_blank"><i class="fab fa-github"></i> Código</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./Images/gestion2.JPG" alt="Proyecto Gestion de usuarios">
+                </div>
+                <div class="project-info">
+                    <h3>Gestion de Usuarios</h3>
+                    <p>Este proyecto es un sistema completo de gestión de usuarios desarrollado con NestJS, MongoDB y Handlebars. Proporciona funcionalidades de autenticación, autorización basada en roles, y una interfaz de usuario intuitiva para administrar usuarios.</p>
+                    <div class="project-tech">
+                        <span>Nest</span>
+                        <span>MongoDB</span>
+                        <span>Handlebars</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Cristian-Backend/gestion-usuarios-nest-handlebars" target="_blank"><i class="fab fa-github"></i> Código</a>
+                        <a href="https://gestion-usuarios-nest-handlebars.onrender.com/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dos proyectos más -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./Images/Socket.io.JPG" alt="WebSocket">
+                </div>
+                <div class="project-info">
+                    <h3>WebSocket</h3>
+                    <p>WebSocket con roles y autenticacion JWT con una base de datos typeORM robusta de Usuarios</p>
+                    <div class="project-tech">
+                        <span>Nest</span>
+                        <span>PostgreSQL</span>
+                        <span>Socket.io</span>
+                        <span>TypeORM</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Cristian-Backend/tesloshop-nest" target="_blank"><i class="fab fa-github"></i> Código</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project6-placeholder.jpg" alt="Proyecto 6">
+                </div>
+                <div class="project-info">
+                    <h3>Nombre del Proyecto 6</h3>
+                    <p>Una breve descripción del proyecto, destacando tu rol y las tecnologías utilizadas.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>Handlebars</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Código</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Añadir más tarjetas de proyectos según sea necesario -->
+        </div>
+    </section>
+
+    <!-- Certificates Section as Gallery -->
+    <section id="certificates" class="certificates">
+        <h2 class="section-title">Certificados</h2>
+        <div class="certificates-gallery">
+            <div class="certificate-item">
+                <img src="./Images/Nest.jpg" alt="Nest: Desarrollo backend escalable con Node" 
+                     onclick="openCertificateModal('./Images/Nest.jpg', 'Nest: Desarrollo backend escalable con Node')">
+                <div class="certificate-overlay">
+                    <h3>Nest: Desarrollo backend escalable con Node</h3>
+                    <p>Udemy</p>
+                </div>
+            </div>
+            
+            <div class="certificate-item">
+                <img src="./Images/CertificadoP-htmlcss.JPG" alt="Curso practico de Html y Css" 
+                     onclick="openCertificateModal('./Images/CertificadoP-htmlcss.JPG', 'Curso practico de Html y Css')">
+                <div class="certificate-overlay">
+                    <h3>Curso practico de Html y Css</h3>
+                    <p>Platzi</p>
+                </div>
+            </div>
+            
+            <!-- Add more certificate items as needed -->
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="certificate-modal">
+        <span class="close-modal">&times;</span>
+        <img class="certificate-modal-content" id="certificateModalImg">
+        <div id="certificateModalCaption"></div>
+    </div>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>c.micchele@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+54 3402 501127</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Arroyo Seco, Santa Fe, Argentina</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Cristian-Backend" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/cristian-micchele-1445a92b5/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm" action="https://formsubmit.co/cristian.aiki1@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Nuevo mensaje del Portfolio">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Tu Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Tu Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+                <div id="form-message" class="form-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cristian Micchele. Todos los Derechos Reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="certificate-modal">
+        <span class="close-modal">&times;</span>
+        <img class="certificate-modal-content" id="certificateModalImg">
+        <div id="certificateModalCaption"></div>
+    </div>
+</body>
+</html>
